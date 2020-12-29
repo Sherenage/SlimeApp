@@ -1,4 +1,4 @@
-package com.example.slimeapp.Injection
+package com.example.slimeapp.injection
 
 import android.app.Application
 import org.koin.android.ext.koin.androidContext
@@ -9,7 +9,7 @@ class SlimeApp : Application(){
         super.onCreate()
         startKoin {
             androidContext(this@SlimeApp)
-            modules(presentationModule)
+            modules(presentationModule, domainModule, dataModule)
         }
     }
 }
