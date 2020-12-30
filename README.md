@@ -40,11 +40,10 @@ Environnement de développement choisi pour développer des applications mobiles
 
 ## Fonctionnalités
 ### Écran de login
-`API Rest`: [Ghibli_API](https://github.com/Luzarios/Ghibli_Repertory/blob/master/Api.json), entièrement créée sur [GitHub](https://github.com/).
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63917571/81483724-93981000-9240-11ea-8079-2fd6139da022.png" width="270" height="480">
-<img src="https://user-images.githubusercontent.com/63917571/81483501-0607f080-923f-11ea-9502-e5736b4ec5ee.png" width="270" height="480">
+<img src="https://user-images.githubusercontent.com/63917571/103385130-6fec4780-4af9-11eb-96f0-c68598c92a71.jpg" width="270" height="480">
+<img src="https://user-images.githubusercontent.com/63917571/103385146-7f6b9080-4af9-11eb-8b19-b9e9419d81da.jpg" width="270" height="480">
 </p>
  
 * _SIGN IN_ : bouton qui permet de se connecter et d'accéder à la liste.
@@ -53,9 +52,9 @@ Environnement de développement choisi pour développer des applications mobiles
 ### Écran de création de compte
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63917571/81483724-93981000-9240-11ea-8079-2fd6139da022.png" width="270" height="480">
-<img src="https://user-images.githubusercontent.com/63917571/81483501-0607f080-923f-11ea-9502-e5736b4ec5ee.png" width="270" height="480">
-<img src="https://user-images.githubusercontent.com/63917571/81483501-0607f080-923f-11ea-9502-e5736b4ec5ee.png" width="270" height="480">
+<img src="https://user-images.githubusercontent.com/63917571/103385179-9a3e0500-4af9-11eb-81f4-a8d2e0db3637.jpg" width="270" height="480">
+<img src="https://user-images.githubusercontent.com/63917571/103385192-a9bd4e00-4af9-11eb-9419-65c9c2d31e37.jpg" width="270" height="480">
+<img src="https://user-images.githubusercontent.com/63917571/103385200-b641a680-4af9-11eb-9f70-e480f3dd5b12.jpg" width="270" height="480">
 </p>
 
 * _CREATE AN ACCOUNT_ : bouton qui crée un compte et redirige l'utilisateur vers la page d'accueil.
@@ -63,20 +62,20 @@ Environnement de développement choisi pour développer des applications mobiles
 ### Création du compte !
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63917571/81483501-0607f080-923f-11ea-9502-e5736b4ec5ee.png" width="270" height="480">
+<img src="https://user-images.githubusercontent.com/63917571/103385218-c3f72c00-4af9-11eb-87e0-825f05de8f07.jpg" width="270" height="480">
 </p>
 
 ### Écran affichage de la liste
 Affiche la famille des slimes.
 
-<img src="https://user-images.githubusercontent.com/63917571/81483501-0607f080-923f-11ea-9502-e5736b4ec5ee.png" width="270" height="480"> 
+<img src="https://user-images.githubusercontent.com/63917571/103385278-06b90400-4afa-11eb-962d-80ff5a33714e.jpg" width="270" height="480"> 
 
 * `RecyclerView` : affiche une liste déroulante d'éléments basée sur un/des ensemble(s) de données.
 
 ### Écran détails des slimes
 Offre une description complète du slime sélectionné.
 
-<img src="https://user-images.githubusercontent.com/63917571/81483501-0607f080-923f-11ea-9502-e5736b4ec5ee.png" width="270" height="480"> 
+<img src="https://user-images.githubusercontent.com/63917571/103385253-e721db80-4af9-11eb-93d3-c0d6540dade4.jpg" width="270" height="480"> 
 
 ## Art Design
 Concerne toute la partie graphique utilisée avec [Paint Tool SAI](https://www.systemax.jp/en/sai/) pour l'application **Slime App**.
