@@ -14,7 +14,7 @@ class GetUserUseCaseTest {
 
     private val classUnderTest = GetUserUseCase(userRepository)
 
-    @Test
+   /* @Test
     fun `invoke with invalid email`(){
         runBlocking {
             //GIVEN
@@ -45,5 +45,5 @@ class GetUserUseCaseTest {
             coVerify(exactly = 1) {userRepository.getUser(email)
                 assertEquals(result,exceptedUser)}
         }
-    }
+    }*/
 }

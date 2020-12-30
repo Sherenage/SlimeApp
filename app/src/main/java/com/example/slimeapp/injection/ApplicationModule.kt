@@ -9,6 +9,7 @@ import com.example.slimeapp.data.repository.UserRepository
 import com.example.slimeapp.domain.entities.User
 import com.example.slimeapp.domain.usecase.CreateUserUseCase
 import com.example.slimeapp.domain.usecase.GetUserUseCase
+import com.example.slimeapp.presentation.main.CreateAccountViewModel
 import com.example.slimeapp.presentation.main.MainViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
@@ -16,6 +17,7 @@ import java.security.AccessControlContext
 
 val presentationModule = module {
     factory { MainViewModel(get(), get()) }
+    factory { CreateAccountViewModel(get(),get()) }
 }
 
 val domainModule = module {

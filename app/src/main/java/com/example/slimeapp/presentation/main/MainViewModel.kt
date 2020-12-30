@@ -1,5 +1,10 @@
 package com.example.slimeapp.presentation.main
 
+import android.app.Activity
+import android.content.Context
+import android.content.Intent
+import android.view.View
+import androidx.core.content.ContextCompat.startActivity
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -18,16 +23,31 @@ class MainViewModel(
     val loginLiveData: MutableLiveData<LoginStatus> = MutableLiveData()
 
     fun onClickedLogin(emailUser: String, password: String){
-        viewModelScope.launch(Dispatchers.IO){
-            val user:User? = getUserUseCase.invoke(emailUser)
-            val loginStatus = if(user!=null){
-                LoginSuccess(user.email)
-            }else{
+        viewModelScope.launch(Dispatchers.IO) {
+            val user: User? = getUserUseCase.invoke(emailUser, password)
+            val loginStatus = if (user != null) {
+                if(emailUser.equals(user.email)){
+                    if(password!=user.password){
+                    LoginPasswordIncorrect
+                    }else{
+                        LoginSuccess(user.email)
+                    }
+                }else{
+                    LoginDontExisted
+                }
+             }else{
                 LoginError
-            }
-            withContext(Dispatchers.Main){
+        }
+            withContext(Dispatchers.Main) {
                 loginLiveData.value = loginStatus
             }
         }
     }
+
+     fun onClikedCreateAccount(activity: Activity) {
+         viewModelScope.launch(Dispatchers.IO){
+             val intent = Intent(activity, CreateAccountActivity::class.java)
+             startActivity(activity,intent,null)
+         }
+     }
 }

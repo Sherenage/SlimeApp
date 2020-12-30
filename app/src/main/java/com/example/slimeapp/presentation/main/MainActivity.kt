@@ -29,10 +29,29 @@ class MainActivity : AppCompatActivity() {
                         }
                         .show()
                 }
+                LoginPasswordIncorrect->{
+                    MaterialAlertDialogBuilder(this)
+                        .setTitle("Error")
+                        .setMessage("Incorrect password")
+                        .setPositiveButton("OK"){ dialog, which -> dialog.dismiss()
+                        }
+                        .show()
+                }
+                LoginDontExisted->{
+                    MaterialAlertDialogBuilder(this)
+                        .setTitle("Error")
+                        .setMessage("Non-existent account")
+                        .setPositiveButton("OK"){ dialog, which -> dialog.dismiss()
+                        }
+                        .show()
+                }
             }
         })
         signIN.setOnClickListener {
             mainViewModel.onClickedLogin(login_edit.text.toString().trim(), password_edit.text.toString())
         }
+        signUP.setOnClickListener {
+            mainViewModel.onClikedCreateAccount(this)
+            }
     }
 }
