@@ -75,7 +75,7 @@ Affiche la famille des slimes.
 ### Écran détails des slimes
 Offre une description complète du slime sélectionné.
 
-<img src="https://user-images.githubusercontent.com/63917571/103385253-e721db80-4af9-11eb-93d3-c0d6540dade4.jpg" width="270" height="480"> 
+<img src="https://user-images.githubusercontent.com/63917571/103385686-bc388700-4afb-11eb-96ef-4e78685eaf41.jpg" width="270" height="480"> 
 
 ## Art Design
 Concerne toute la partie graphique utilisée avec [Paint Tool SAI](https://www.systemax.jp/en/sai/) pour l'application **Slime App**.
