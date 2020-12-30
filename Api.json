@@ -1,6 +1,4 @@
-{
-  "creator":"Luzarios",
-  "slime":[
+[
     {
       "name":"Bubble slime",
       "image": "https://zupimages.net/up/20/53/mvcv.png",
@@ -111,5 +109,5 @@
       "image": "https://zupimages.net/up/20/53/cwvz.png",
       "description":"https://zupimages.net/up/20/53/7itk.png"
     }
-  ]
-}
+]
+
